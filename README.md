@@ -17,6 +17,6 @@ Diseñar una aplicación modular que permita administrar los procesos de la clí
 - Reportes básicos.  
 
 ## 👨‍💻 Integrantes  
-- **Carlos Montes** (Clase Lunes-Miercoles 4-6 pm)  
+- **Carlos Montes** (Clase Martes-Jueves 4-6 pm)  
 - **Juan Pablo Alvarez** (Clase Lunes-Miercoles 8-10 pm)  
 - **Jhon Posada** (Clase Lunes-Miercoles 8-10 pm)  
