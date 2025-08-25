@@ -1,15 +1,13 @@
 package app.domain.model;
 
-public enum Role {
-    DOCTOR("Doctor"),
-    NURSE("Enfermera"),
-    ADMIN("Administrador"),
-    HR("Recursos Humanos"),
-    SUPPORT("Soporte");
+public enum Gender {
+    MALE("Masculino"),
+    FEMALE("Femenino"),
+    OTHER("Otro");
 
     private final String displayName;
 
-    Role(String displayName) {
+    Gender(String displayName) {
         this.displayName = displayName;
     }
 
@@ -17,3 +15,4 @@ public enum Role {
         return displayName;
     }
 }
+

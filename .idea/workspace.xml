@@ -5,20 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997da8bc-d79f-4140-8e90-d457ac06e095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Construccion2JhonPosadaCarlosMontesPabloAlvarez.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/EmergencyContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/MedicalInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/ClinicalHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/ClinicalNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/ClinicalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/DiagnosticOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/DiagnosticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Medication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/MedicationOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Procedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/ProcedureOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/ports/EmployeePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/services/CreateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/services/DeleteEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/services/FindEmployeeByDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/services/ListEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/services/UpdateEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/EmergencyContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/EmergencyContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/MedicalInsurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/MedicalInsurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-information-system/src/main/java/app/domain/model/Role.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,16 +73,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClinicalInformationSystemApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClinicalInformationSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
